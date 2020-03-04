@@ -12,6 +12,9 @@ switch (fruittype){
         console.log('Mangoes are $0.56 a pound');
         break;
     case 'Papayas':
-        console.log()
-
-    }
+        console.log('Mangoes and papayas are $2.79 a pound.');
+        break;
+    default:
+        console.log('Sorry, we are out of ${fruittype.');
+}
+console.log("Is there anything else you'd like?");
