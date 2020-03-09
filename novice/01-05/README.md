@@ -6,9 +6,8 @@ Tanggal : 9 Maret 2020<br>
 Ringkasan Materi : <br>
 Array pada javascript dimulai dari 0, array bisa menyimpan berbagai jenis data dan array memiiki metode yang banyak.
 menambahkan dari belakang dengan cara array.push dan menghapus menggunakan array.pop
-menambahkan dari depan dengan cara array shift dan menghapus dengan array.unshift
-memanggil array dalam array (array[6][urutan yang ingin diambil]). <br>
-
+menambahkan dari depan dengan cara array shift dan menghapus dengan array.unshift <br>
+  
 object : tipe data yang memiliki kombinasi struktur data/atribut dan beberapa fungsi/method
 object untuk menyimpan, value yang dimasukkan selalu ada key nya, pada object urutan tidak berpengaruh
 ketika memakai titik(.) maka pemanggilan angka akan terjadi error <br>
