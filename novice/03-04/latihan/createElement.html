@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>createElement</title>
+</head>
+
+<body>
+  <div id="div1">Teks di atas telah dibuat secara dinamis.
+
+<script>
+    function addElement () { 
+      var newDiv = document.createElement("div"); 
+      var newContent = document.createTextNode("Hi there and greetings!"); 
+      newDiv.appendChild(newContent);  
+      var currentDiv = document.getElementById("div1"); 
+      document.body.insertBefore(newDiv, currentDiv); }
+</script>
+</html>
