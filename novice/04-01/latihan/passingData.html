@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Cobain</title>
+</head>
+<body>
+    <div id="blog-post-demo">
+        <blog-post title="Perjalanan hidup"></blog-post>
+        <blog-post title="Sangatlah indah"></blog-post>
+        <blog-post title="Jika dilalui dengan semangat"></blog-post>
+        </div>
+        <script>
+            Vue.component('blog-post', {
+            props: ['title'],
+            template: '<h3>{{ title }}</h3>'
+            })
+        </script>
+    
+        <script>
+            new Vue({
+            el: '#blog-post-demo',
+            data: {
+                posts: [
+                { id: 1, title: 'Perjalanan hidup saya' },
+                { id: 2, title: 'Sangatlah indah' },
+                { id: 3, title: 'Jika dilalui dengan semangat' }
+                ]
+            }
+            })
+        </script>
+</body>
+</html>
